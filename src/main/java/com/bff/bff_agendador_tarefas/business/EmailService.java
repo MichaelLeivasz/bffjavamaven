@@ -11,7 +11,7 @@ public class EmailService {
 
     private final EmailClient emailClient;
 
-    public void enviaremail(TarefasDTOResponse dto){
+    public void enviarEmail(TarefasDTOResponse dto){
         emailClient.enviarEmail(dto);
     }
 
